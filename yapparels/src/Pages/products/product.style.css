@@ -1,0 +1,10 @@
+.product-intro {
+  width: 100%;
+  padding: 100px 10%;
+  background-color: aliceblue;
+}
+.product-intro h1 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+

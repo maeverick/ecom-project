@@ -1,0 +1,36 @@
+.menu-item .content.navbar {
+  display: flex;
+ 
+}
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+}
+.nav .highlight {
+  opacity: 1;
+  color: orangered;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+.nav li {
+  margin: 0 25px;
+}
+.nav a::after {
+  content: "";
+  width: 0;
+  height: 1px;
+  background-color: orangered;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: .7s;
+}
+.nav a:hover:after{
+    width: 100%;
+}

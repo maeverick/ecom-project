@@ -1,0 +1,62 @@
+.info {
+  padding: 50px 0;
+}
+.info h1 {
+  text-align: center;
+  font-size: 3.5rem;
+}
+.info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 100px 0;
+  gap: 50px;
+}
+.info-container div {
+  margin: 0;
+}
+
+.info-selector {
+  background-color: #fff;
+  margin: 0;
+}
+.info-selector ul {
+  padding: 10px;
+}
+.info-selector li {
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+.info-selector li:hover {
+  color: orangered;
+}
+.info-image {
+  width: 620px;
+  height: 420px;
+}
+.info-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.info-text {
+  width: 500px;
+}
+
+.info-text h3 {
+  font-size: 2rem;
+  margin: 15px 0;
+}
+.info-text p {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.info-section {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}

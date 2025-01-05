@@ -1,0 +1,27 @@
+.sign {
+  width: 100%;
+  display: flex;
+  height: 100dvh;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  padding: 50px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.sign h1 {
+  font-size: 5em;
+  padding: 30px 0;
+  text-align: center;
+}
+.sign p {
+  font-size: 1.2rem;
+}
+.sign a {
+  text-transform: capitalize;
+}
+.sign h3 {
+  text-align: center;
+}
